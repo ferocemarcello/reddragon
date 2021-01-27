@@ -1,0 +1,19 @@
+ANALISI DELLE FUNZIONALITA' RICHIESTE
+1-Visualizzare membri(e singolo membro)
+2-Aggiungere nuovo membro
+3-Rimuovere membro
+4-Modificare membro
+
+5-Visualizzare triadi(e singola triade)
+6-Rimuovere triade
+7-Modificare triade
+8-Aggiungere triade
+
+9-Visualizzazione storico azioni militari
+10-Aggiunta azione militare
+
+
+					PER SINGOLA TRIADE
+11-Visualizzazione bilanci(e singolo bilancio annuale)
+12-Visualizzazione singola attività commerciale
+13-Modifica attività commerciale per mese corrente o presente

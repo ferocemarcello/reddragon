@@ -1,0 +1,29 @@
+	body{
+
+		background-image: url('../images/criminals-bg.jpg');
+	}
+
+	table{
+
+		margin: auto auto;
+		margin-top: 20vh;
+		width: 85%;
+	}
+
+	table tr th{
+
+		font-weight: 700;
+		padding: 20px;
+	}
+
+	#actions-td{
+
+		width: 100px;
+	}
+
+	table tr td{
+
+		width: 15%;
+		text-align: center;
+
+	}

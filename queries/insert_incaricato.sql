@@ -1,0 +1,2 @@
+INSERT INTO INCARICATO
+VALUES (nome_mafioso,ventaglio_di_carta_bianco_che_consiglia,vanguardia_che_coaudiuva,vice_capo_montagna_che_controlla,ruolo,codice_fiscale,data_di_nascita,nome,cognome,tipo,cod_triade,nome_mafioso_capo_dragone,palo_rosso_che_collega,cod_affiliazione);

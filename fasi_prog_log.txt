@@ -1,0 +1,15 @@
+La progettazione logica può essere articolata in due fasi
+principali:
+
+– Ristrutturazione: eliminazione dallo schema E/R dei
+costrutti che non possono essere direttamente rappresentati
+nel modello logico target (relazionale nel nostro caso):
+
+» eliminazione degli attributi multivalore;
+» eliminazione delle gerarchie di generalizzazione;
+» partizionamento/accorpamento di entità e associazioni;
+» scelta degli identificatori principali.
+
+
+– Traduzione: si mappano i costrutti residui in elementi del
+modello relazionale.

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RedDragonDB | Profilo</title>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+
+	<style type="text/css">
+
+	*{
+
+		font-family: Roboto;
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+	.pro-container{
+
+		display: block;
+		margin: auto auto;
+		width: 600px;
+		padding: 30px;
+		border: solid 1px #000;
+	}
+
+	.title{
+		display: block;
+		margin-top: 1vh;
+		font-size: 35px;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.pro-pics-container{
+
+		display: inline-block;
+		position: relative;
+		top: 40px;
+		height: 160px;
+		width: 120px;
+		text-align: center;
+	}
+
+	.pro-pic{
+
+		padding: 0;
+		margin: 0;
+	}
+
+	.triad-pic{
+
+		padding: 0;
+		margin-top: -5px;
+	}
+
+	.info-box{
+
+		display: inline-block;
+		width: 50%;
+		margin: auto auto;
+		padding-left: 30px;
+	}
+
+	.space-line{
+
+		display: block;
+		width: 70%;
+		margin: 50px auto 50px auto;
+		height: 1px;
+		background-color: #000;
+	}
+
+	.description-title{
+
+		font-weight: 700;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.material-icons:hover{
+
+		cursor: pointer;
+	}
+
+	#settings-icon{
+
+		color: #808080;
+	}
+
+	#delete-icon{
+
+		color: #c0392b;
+	}
+
+	.battles{
+
+		width: 50%;
+		display: block;
+		margin: auto auto;
+	}
+
+	.line-type-t th{
+
+		font-weight: 700;
+		text-align: center;
+		width: 50%;
+	}
+
+	.battles tr td{
+
+		text-align: center;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div class="pro-container">
+
+		<h1 class="title">Profilo personale</h1>
+		<div class="pro-pics-container">
+			<img class="pro-pic" src="./res/images/pro-pics/ex.jpg" height="120px" width="120px"><br>
+			<img class="triad-pic" src="./res/images/triads/chunjo.png" height="40" width="120px">
+			<i class="material-icons" id="settings-icon">settings</i>
+			<i class="material-icons" id="delete-icon">delete_forever</i>
+		</div>
+		<div class="info-box">
+			<p>Nome mafioso:</p>
+			<p>Nome Cognome:</p>
+			<p>Data di Nascita:</p>
+			<p>Data di affiliazione:</p>
+			<p>Grado:</p>
+		</div>
+		<div class="space-line"></div>
+		<div class="description">
+
+			<p class="description-title">Descrizione</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<div class="space-line"></div>
+			<table class="battles">
+				<tr class="line-type-t">
+					<th>Battaglia combattuta</th>
+					<th>Esito</th>
+				</tr>
+				<tr>
+					<td>26/02/2010</td> <!--Triad icon-->
+					<td><i class="material-icons" id="battle-result">done</i></td>
+				</tr>
+				<tr>
+					<td>31/04/2011</td> <!--Triad icon-->
+					<td><i class="material-icons" id="battle-result">done</i></td>
+				</tr>
+				<tr>
+					<td>12/05/2012</td> <!--Triad icon-->
+					<td><i class="material-icons" id="battle-result">clear</i></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

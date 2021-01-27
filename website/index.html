@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+	<style type="text/css">
+
+	body{
+
+		background: url(./res/images/home-bg.jpg);
+		background-color: #000;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		display: block;
+		height: 90vh;
+		width: 100%;
+
+		margin: 0;
+	}
+
+	*{
+
+		color: #fff;
+		font-family: Roboto;
+		font-weight: 300;
+	}
+
+	.logo{
+
+		display: block;
+		margin: 20px auto 0 auto;
+		height: 100px;
+		width: 100px;
+	}
+
+	h1{
+
+		text-align: center;
+		font-size: 30px;
+	}
+
+	h2{
+
+		text-align: center;
+		font-size: 22px;
+	}
+
+	h3{
+		
+		font-size: 15px;
+		font-weight: 700;
+	}
+
+	nav{
+
+		display: block;
+		width: 50%;
+		margin: 10% auto 0 auto;
+
+		text-align: center;
+	}
+
+	nav li{
+
+		display: inline-block;
+		float: center;
+
+	}
+
+	nav li a{
+
+		margin: 5px 50px 5px 50px;
+		padding: 0 10px 5px 10px;
+
+		text-decoration: none;
+
+		transition: all .2s;
+	}
+	nav li a:hover{
+
+		border-bottom: solid 1px #980000;
+	}
+
+	.description-container{
+
+		display: block;
+		width: 60%;
+		margin: 100px auto 0 auto;
+		padding: 20px;
+		border: solid 1px #fff;
+
+	}
+
+	#criminals-container, #triads-container, #balances-container{
+
+		display: none;
+	}
+
+	#criminals-item:hover > #criminals-container{
+
+		display: block;
+	}
+
+	</style>
+
+	<script type="text/javascript">
+		
+		function visible(name) {
+			
+			$("#" + name + "-container").css("display" , "block");
+		}
+
+		function invisible(name) {
+			
+			$('#' + name + '-container').css("display" , "none");
+		}
+	</script>
+
+</head>
+<body>
+
+	<header>
+	<img class="logo" src="./res/images/logo.png">
+		<h1>Benvenuto in <span style="color:  #980000;">RedDragonDB</span></h1>
+		<h2>La criminalit&agrave, a portata di click</h2>
+
+		<nav>
+			<li id="criminals-item"><a href="./#.php" onmouseover="visible('criminals');" onmouseleave="invisible('criminals');">Criminali</a></li>
+			<li><a id="triads-item" href="./triads.php" onmouseover="visible('triads');" onmouseleave="invisible('triads');">Triadi</a></li>
+			<li><a id="balances-item" href="./#.php" onmouseover="visible('balances');" onmouseleave="invisible('balances');">Bilanci</a></li>
+			<br>
+			<div class="description-container" id="criminals-container">
+				<h3 class="description-title"><span style="color: #980000;font-weight: 700;">C</span>riminali</h3>
+				<p class="description-text">
+					Elenco ordinato di tutti i peggiori criminali mai schedati, completi di informazioni precise e aggiornate
+				</p>
+			</div>
+			<div class="description-container" id="triads-container">
+				<h3 class="description-title"><span style="color: #980000;font-weight: 700;">T</span>riadi</h3>
+				<p class="description-text">
+					Una lista completa di tutte le pi&ugrave famose triadi mai registrate, ordinata e aggiornata
+				</p>
+			</div>
+			<div class="description-container" id="balances-container">
+				<h3 class="description-title"><span style="color: #980000;font-weight: 700;">B</span>ilanci</h3>
+				<p class="description-text">
+					Verificare la solidit&agrave dei tuoi futuri investimenti nel mondo della criminalit&agrave organizzata cinese non &egrave mai stato cos&igrave semplice! 
+				</p>
+			</div>
+		</nav>
+	</header>
+	
+</body>
+</html>

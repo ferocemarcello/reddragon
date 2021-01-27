@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RedDragonDB | Bilancio</title>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+	<link href="./res/css/common-style.css" rel="stylesheet" type="text/css">
+	<link href="./res/css/balance-style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<nav class="secondary-nav">
+
+		<i class="material-icons" id="burger-menu">menu</i>
+		<li class="nav-item"><a href="./index.html">Home</a></li>
+		<li class="nav-item"><a id="active-item" href="./index.html">Criminali</a></li>
+		<li class="nav-item"><a href="./index.html">Triadi</a></li>
+		<li class="nav-item"><a href="./index.html">Bilanci</a></li>
+	</nav>
+	<br><br>
+	<h1 class="title">BILANCIO</h1>
+	<div class="balance-triad-info">
+		<div class="balance-triad-logo"></div>
+		<span class="balance-triad-name">DioBello</span>
+		<div class="balance-triad-logo"></div>
+	</div>
+
+	<!--********************* ENTRATE *********************-->
+	<div class="balance-type-container">
+		<p class="balance-type-title">Entrate</p>
+		<div class="balance-type-info" id="balance-type-graphic">
+			
+			<div class="balance-graphic-tower" id="e-spaccio-tower"></div>
+			<div class="balance-graphic-tower" id="e-prostituzione-tower"></div>
+			<div class="balance-graphic-tower" id="e-traffico-illegale-tower"></div>
+			<div class="balance-graphic-tower" id="e-pizzo-tower"></div>
+
+		</div>
+		<div class="balance-type-info" id="balance-type-text">
+			
+			<p class="balance-type-subtitle">Voci entrate</p>
+			<p class="balance-info-field">Spaccio: 250000 &#165;</p>
+			<p class="balance-info-field">Prostituzione: 250000 &#165;</p>
+			<p class="balance-info-field">Traffico illegale: 250000 &#165;</p>
+			<p class="balance-info-field">Pizzo: 250000 &#165;</p>
+
+		</div>
+	</div>
+
+	<!--********************* USCITE *********************-->
+	<div class="balance-type-container">
+		<p class="balance-type-title">Uscite</p>
+		<div class="balance-type-info" id="balance-type-graphic">
+			
+			<div class="balance-graphic-tower" id="u-corruzione-tower"></div>
+			<div class="balance-graphic-tower" id="u-traffico-illegale-tower"></div>
+
+		</div>
+		<div class="balance-type-info" id="balance-type-text">
+			
+			<p class="balance-type-subtitle">Voci uscite</p>
+			<p class="balance-info-field">Corruzione: 250000 &#165;</p>
+			<p class="balance-info-field">Traffico illegale: 250000 &#165;</p>
+
+		</div>
+	</div>
+
+	<!--********************* NETTO *********************-->
+	<div class="balance-type-container">
+	<p class="balance-type-title">Profitto netto</p>
+		<div class="balance-net-profit-graphic">
+			<div class="balance-net-profit-field-graphic" id="net-profit-outflow">
+				<div class="net-profit-inside-field" id="net-profit-outflow-corruzione"></div>
+				<div class="net-profit-inside-field" id="net-profit-outflow-traffico-illegale"></div>
+			</div>
+			<div class="balance-net-profit-field-graphic" id="net-profit-revenue">
+				<div class="net-profit-inside-field" id="net-profit-revenue-spaccio"></div>
+				<div class="net-profit-inside-field" id="net-profit-revenue-prostituzione"></div>
+				<div class="net-profit-inside-field" id="net-profit-revenue-traffico-illegale"></div>
+				<div class="net-profit-inside-field" id="net-profit-revenue-pizzo"></div>
+			</div>
+		</div>
+
+		<div class="net-profit-calc-container">
+			<div class="net-profit-calc">
+				<p>Spaccio</p><p>
+				<p>Prostituzione</p>
+				<p>Traffico illegale</p>
+				<p>Pizzo</p>
+
+				<p>Corruzione</p>
+				<p>Traffico illegale</p>
+
+				<p id="net-profit-calc-total">Profitto netto</p>
+			</div>
+			<div class="net-profit-calc" id="net-profit-calc-values">
+				<p>value</p>
+				<p>value</p>
+				<p>value</p>
+				<p>value</p>
+
+				<p>value</p>
+				<p>value</p>
+
+				<div class="net-profit-calc-line"></div>
+
+				<p>value</p>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

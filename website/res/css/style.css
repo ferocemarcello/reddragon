@@ -1,0 +1,140 @@
+	*{
+
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	body,html{
+
+		margin: 0;
+	}
+
+	body{
+
+		background: url('../images/home-bg.jpg');
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+	}
+
+	.logo{
+
+		display: block;
+		margin: 10vh auto 0 auto;
+	}
+
+	.title{
+		display: block;
+		margin-top: 3vh;
+		font-size: 35px;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.subtitle{
+
+		font-size: 17px;
+		font-weight: 500;
+		text-align: center;
+		letter-spacing: 2px;
+		color: #c0392b;
+	}
+
+	.nav-container{
+
+		display: block;
+		height: 215px;
+		width: 1100px;
+		margin: 20vh auto 0 auto;
+	}
+
+	.item-container{
+
+		display: inline-block;
+		text-align: center;
+		height: 150px;
+		width: 300px;
+		padding: 30px;
+		margin: 0;
+		transition: all .3s;
+		color: #fff;
+	}
+
+	.item-description{
+
+		position: relative;
+		top: 15px;
+	}
+
+	.material-icons{
+
+		font-size: 35px;
+	}
+
+	.item-title{
+
+		font-weight: 700;
+		font-size: 15px;
+	}
+
+	#criminals-item{
+
+		background-color: rgba(231, 76, 60, .8);
+		position: relative;
+		right: -2px;
+	}
+
+	#criminals-item:hover{
+
+		background-color: rgba(231, 76, 60,1.0);
+		-o-box-shadow: 0px 0px 30px 0px rgba(231, 76, 60,1.0);
+		-webkit-box-shadow: 0px 0px 30px 0px rgba(231, 76, 60,1.0);
+		-moz-box-shadow: 0px 0px 30px 0px rgba(231, 76, 60,1.0)
+		box-shadow: 0px 0px 30px 0px rgba(231, 76, 60,1.0);
+	}
+
+	#triads-item{
+
+		background-color: rgba(39, 174, 96, .8);
+	}
+
+	#triads-item:hover{
+
+		background-color: rgba(39, 174, 96,1.0);
+		-o-box-shadow: 0px 0px 30px 0px #2ecc71;
+		-webkit-box-shadow: 0px 0px 30px 0px #2ecc71;
+		-moz-box-shadow: 0px 0px 30px 0px #2ecc71
+		box-shadow: 0px 0px 30px 0px #2ecc71;
+	}
+
+	#balances-item{
+
+		background-color: rgba(52, 152, 219, .8);
+		position: relative;
+		right: 3px;
+	}
+
+	#balances-item:hover{
+
+		background-color: rgba(52, 152, 219,1.0);
+		-o-box-shadow: 0px 0px 30px 0px #3498db;
+		-webkit-box-shadow: 0px 0px 30px 0px #3498db;
+		-moz-box-shadow: 0px 0px 30px 0px #3498db
+		box-shadow: 0px 0px 30px 0px #3498db;
+	}
+
+	footer{
+
+		position: absolute;
+		top: 96%;
+		display: block;
+		width: 100%;
+	}
+
+	footer span{
+
+		color: #808080;
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
